@@ -272,7 +272,7 @@ if __name__ == '__main__':
     result = result.replace("#", "")
     result = result.replace("*", "")
     result = first_to_second_person(result)
-    result = remove_profanity(result)
+    # result = remove_profanity(result)
 
     while ("\n \n \n " in result):
         result = result.replace("\n \n \n ", "\n \n ")
