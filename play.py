@@ -68,7 +68,7 @@ def play_aidungeon_2():
                   + " If you would like to disable this enter 'nosaving' for any action. This will also turn off the "
                   + "ability to save games.")
 
-    upload_story = True
+    upload_story = False
 
     print("\nInitializing AI Dungeon! (This might take a few minutes)\n")
     generator = GPT2Generator()
